@@ -1,0 +1,37 @@
+# Credentials file
+# ######################
+fmc_credentials.yaml
+# Vadim scripts
+fmc_sync_configv2.py
+fmc_acl_renaming.py
+delete_disabled_acl_from_fmc.py
+FTDHelper.py
+
+# test files
+try*.py
+
+# Excel files needed for local tests
+# ######################
+
+*.xlsx
+
+# OS generated files #
+# ######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vim undo files. Python#
+# #######################
+*.un~
+*.pyc
+*.swp
+.mypy_cache
+
+
+#
+*.sqlite
