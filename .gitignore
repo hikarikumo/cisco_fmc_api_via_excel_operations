@@ -1,7 +1,7 @@
 # Credentials file
 # ######################
-fmc_credentials.yaml
-# Vadim scripts
+#fmc_credentials.yaml
+# not my scripts
 fmc_sync_configv2.py
 fmc_acl_renaming.py
 delete_disabled_acl_from_fmc.py
