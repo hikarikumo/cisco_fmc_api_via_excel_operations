@@ -12,7 +12,7 @@ Additionally these scripts work with child domains.
 From the scratch please prepare python virtual environment:
 
 ```
-git clone <repo> or copy required files
+git clone git@github.com:hikarikumo/cisco_fmc_api_via_excel_operations.git or copy required files
 cd <repo>
 pip install virtualenv (if you don't already have virtualenv installed)
 virtualenv venv to create your new environment (called 'venv' here)
