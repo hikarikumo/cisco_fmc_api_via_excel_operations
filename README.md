@@ -64,10 +64,10 @@ Each object require action column to be filled:
 Therefore in order to add new hosts it is required to fill the following data within the Excel file. Action field should be **add**:
 
 ```
-object_name         object	        action	type
-H.TEST.GEN.HOST1	  198.18.204.1	  add 	  Host
-H.TEST.GEN.HOST2	  198.18.204.2	  add	    Host
-H.TEST.GEN.HOST3	  198.18.204.3	  add	    Host
+object_name         object          action  type
+H.TEST.GEN.HOST1    198.18.204.1    add     Host
+H.TEST.GEN.HOST2    198.18.204.2    add     Host
+H.TEST.GEN.HOST3    198.18.204.3    add     Host
 ```
 
 Object Types should be properly specified for the FMC, the proper types can be found below:
@@ -80,9 +80,9 @@ If action field is not specified or specified incorrectly it would be just skipp
 Similar approach is for creation of object groups. Specify group, object, action and group type:
 
 ```
-object_group_name	  object	        action	type
-GP.TEST.GROUP   	  H.TEST.HOST4	  add	    NetworkGroup
-GP.TEST.GROUP   	  H.TEST.HOST3	  add	    NetworkGroup
+object_group_name   object          action  type
+GP.TEST.GROUP       H.TEST.HOST4    add     NetworkGroup
+GP.TEST.GROUP       H.TEST.HOST3    add     NetworkGroup
 ```
 
 Of course, the objects should be added to objects tab too
@@ -92,9 +92,9 @@ Of course, the objects should be added to objects tab too
 Similar approach is for creation of url groups. Specify urlgroup, url, action and urlgroup type:
 
 ```
-url_group_name	url	                action	type
-urlgrp.test	    https://gmail.com	  add	    UrlGroup
-urlgrp.test	    https://google.com	add	    UrlGroup
+url_group_name  url                 action  type
+urlgrp.test     https://gmail.com   add     UrlGroup
+urlgrp.test     https://google.com  add     UrlGroup
 ```
 
 Of course, the urls should be added to objects tab too
@@ -104,10 +104,10 @@ Of course, the urls should be added to objects tab too
 Set action filed to **delete**:
 
 ```
-object_name	        object	        action	type
-H.TEST.GEN.HOST1	  198.18.204.1	  delete 	Host
-H.TEST.GEN.HOST2	  198.18.204.2	  delete  Host
-H.TEST.GEN.HOST3	  198.18.204.3	  delete  Host
+object_name         object          action  type
+H.TEST.GEN.HOST1    198.18.204.1    delete  Host
+H.TEST.GEN.HOST2    198.18.204.2    delete  Host
+H.TEST.GEN.HOST3    198.18.204.3    delete  Host
 ```
 
 Bear in mind that before deletion of the object it shoudl be deleted out of the group first (in case it is used in group).
@@ -117,9 +117,9 @@ Bear in mind that before deletion of the object it shoudl be deleted out of the 
 Set action filed to **delete**:
 
 ```
-object_group_name	  object	        action	type
-GP.TEST.GROUP   	  H.TEST.HOST4	  delete	NetworkGroup
-GP.TEST.GROUP   	  H.TEST.HOST3		        NetworkGroup
+object_group_name   object          action  type
+GP.TEST.GROUP       H.TEST.HOST4    delete  NetworkGroup
+GP.TEST.GROUP       H.TEST.HOST3            NetworkGroup
 ```
 
 ### Modify objects
@@ -127,8 +127,8 @@ GP.TEST.GROUP   	  H.TEST.HOST3		        NetworkGroup
 Change object value. Set action filed to **modify**:
 
 ```
-object_name	        object	        action	type
-H.TEST.GEN.HOST1	  198.18.0.111	  modify 	Host
-H.TEST.GEN.HOST2	  198.18.204.2	          Host
-H.TEST.GEN.HOST3	  198.18.204.3	          Host
+object_name         object          action  type
+H.TEST.GEN.HOST1    198.18.0.111	  modify 	Host
+H.TEST.GEN.HOST2    198.18.204.2            Host
+H.TEST.GEN.HOST3    198.18.204.3            Host
 ```
