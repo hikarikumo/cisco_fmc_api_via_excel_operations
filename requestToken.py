@@ -9,7 +9,7 @@ will need to be populated in the __main__ section below.
 """
 
 # include the necessary modules
-import argparse
+# import argparse
 import requests
 import logging
 import time
