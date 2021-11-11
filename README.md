@@ -128,7 +128,9 @@ Change object value. Set action filed to **modify**:
 
 ```
 object_name         object          action  type
-H.TEST.GEN.HOST1    198.18.0.111	  modify 	Host
+H.TEST.GEN.HOST1    198.18.0.111    modify  Host
 H.TEST.GEN.HOST2    198.18.204.2            Host
 H.TEST.GEN.HOST3    198.18.204.3            Host
 ```
+
+
