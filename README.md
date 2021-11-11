@@ -65,9 +65,9 @@ Therefore in order to add new hosts it is required to fill the following data wi
 
 ```
 object_name         object	        action	type
-H.TEST.GEN.HOST1	198.18.204.1	add 	Host
-H.TEST.GEN.HOST2	198.18.204.2	add	    Host
-H.TEST.GEN.HOST3	198.18.204.3	add	    Host
+H.TEST.GEN.HOST1	  198.18.204.1	  add 	  Host
+H.TEST.GEN.HOST2	  198.18.204.2	  add	    Host
+H.TEST.GEN.HOST3	  198.18.204.3	  add	    Host
 ```
 
 Object Types should be properly specified for the FMC, the proper types can be found below:
